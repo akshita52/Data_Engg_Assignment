@@ -1,9 +1,9 @@
-### Data_Engg_Assignment
+## Data_Engg_Assignment:- 
 
-## Problem 1:
+# Problem 1:
 A company wants to predict employee productivity scores to improve workforce planning and training programs. You are hired as a Data Scientist to build a multivariate linear regression model that predicts an employee’s Productivity Score based on multiple work-related factors. 
 
-# Experience (yrs), Training Hours, Working Hours, Projects, Productivity Score 
+Experience (yrs), Training Hours, Working Hours, Projects, Productivity Score 
 2,40,38,3,62 
 5,60,42,6,78 
 1,20,35,2,55 
@@ -24,14 +24,14 @@ A company wants to predict employee productivity scores to improve workforce pla
 6. How would you detect overfitting in this model? 
 7. Suggest one new feature to improve prediction accuracy. 
 
-## Problem 2:
+# Problem 2:
 A bank wants to detect fraudulent transactions in real time. 
 Each transaction must be classified as: 
 0 → Legitimate  
 1 → Fraud 
 
-# Data Set: 
-# TransactionID,Amount,TimeSinceLastTxn,LocationChange,AvgTxnAmount,IsForeignTransaction,IsHighRiskCountry,CardPresent,IsFraud
+Data Set: 
+TransactionID,Amount,TimeSinceLastTxn,LocationChange,AvgTxnAmount,IsForeignTransaction,IsHighRiskCountry,CardPresent,IsFraud
 1,1200,2,1,500,1,1,0,1 
 2,50,24,0,200,0,0,1,0 
 3,5000,1,1,450,1,1,0,1 
@@ -43,7 +43,7 @@ Each transaction must be classified as:
 9,2100,5,1,600,1,1,0,1 
 10,60,120,0,120,0,0,1,0 
 
-# Feature Explanation:  
+Feature Explanation:  
 Amount → Transaction amount  
 TimeSinceLastTxn → Hours since last transaction  
 LocationChange → 1 if location differs from previous  
@@ -62,7 +62,7 @@ IsFraud → Target variable
 6. Tune threshold (not just 0.5)  
 7. Add regularization (L1/L2) and compare results 
 
-## Problem 3: 
+# Problem 3: 
 An e-commerce company wants to segment its customers into groups to: 
 a. Personalize marketing campaigns  
 b. Recommend products  
@@ -80,7 +80,7 @@ CustomerID, Age, AnnualIncome, SpendingScore,VisitsPerMonth,AvgOrderValue
 9,60,80000,10,1,100 
 10,28,30000,70,6,400 
 
-# Feature Explanation:  
+Feature Explanation:  
 Age → Customer age  
 AnnualIncome → Income in ₹  
 SpendingScore → Engagement score (1–100)  
